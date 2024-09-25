@@ -1,14 +1,13 @@
 package main
 
 import (
-    "fmt"
+	"fmt"
 )
 
-
 func main() {
-    var nb1 int = 32
-    var nb2 int = 10
-    var res int = Add(nb1, nb2)
+	var nb1 int = 32
+	var nb2 int = 10
+	var res int = Add(nb1, nb2)
 
-    fmt.Printf("%d\n", res)
+	fmt.Printf("%d\n", res)
 }
