@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-func PrintAlpha() {
-	for i := 97; i <= 122; i++ {
+func PrintRevAlpha() {
+	for i := 122; i >= 97; i-- {
 		fmt.Printf("%c", i)
 	}
 }
