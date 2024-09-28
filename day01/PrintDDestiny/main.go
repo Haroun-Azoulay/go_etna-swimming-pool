@@ -3,6 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	result := PrintDestiny("Luffy", "Monkey")
+	result := PrintDDestiny("Luffy", "Monkey")
 	fmt.Println(result)
 }
